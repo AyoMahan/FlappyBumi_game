@@ -1,0 +1,11 @@
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\bin\Debug\FlappyBumi_MahanaimYo.exe.config
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\bin\Debug\FlappyBumi_MahanaimYo.exe
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\bin\Debug\FlappyBumi_MahanaimYo.pdb
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\obj\Debug\FlappyBumi_MahanaimYo.csproj.AssemblyReference.cache
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\obj\Debug\FlappyBumi_MahanaimYo.csproj.SuggestedBindingRedirects.cache
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\obj\Debug\FlappyBumi_MahanaimYo.Form1.resources
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\obj\Debug\FlappyBumi_MahanaimYo.Properties.Resources.resources
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\obj\Debug\FlappyBumi_MahanaimYo.csproj.GenerateResource.cache
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\obj\Debug\FlappyBumi_MahanaimYo.csproj.CoreCompileInputs.cache
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\obj\Debug\FlappyBumi_MahanaimYo.exe
+C:\Users\Aru Tarunamihardja\source\repos\FlappyBumi_MahanaimYo\FlappyBumi_MahanaimYo\obj\Debug\FlappyBumi_MahanaimYo.pdb
