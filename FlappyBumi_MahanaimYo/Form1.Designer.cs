@@ -55,9 +55,9 @@
             // pipeBottom
             // 
             this.pipeBottom.Image = global::FlappyBumi_MahanaimYo.Properties.Resources.pipe1;
-            this.pipeBottom.Location = new System.Drawing.Point(501, 321);
+            this.pipeBottom.Location = new System.Drawing.Point(464, 323);
             this.pipeBottom.Name = "pipeBottom";
-            this.pipeBottom.Size = new System.Drawing.Size(86, 163);
+            this.pipeBottom.Size = new System.Drawing.Size(77, 160);
             this.pipeBottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeBottom.TabIndex = 5;
             this.pipeBottom.TabStop = false;
@@ -65,9 +65,9 @@
             // pipeTop
             // 
             this.pipeTop.Image = global::FlappyBumi_MahanaimYo.Properties.Resources.pipedown;
-            this.pipeTop.Location = new System.Drawing.Point(667, 9);
+            this.pipeTop.Location = new System.Drawing.Point(683, 9);
             this.pipeTop.Name = "pipeTop";
-            this.pipeTop.Size = new System.Drawing.Size(78, 209);
+            this.pipeTop.Size = new System.Drawing.Size(78, 170);
             this.pipeTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeTop.TabIndex = 4;
             this.pipeTop.TabStop = false;
@@ -77,7 +77,7 @@
             this.bumi.Image = global::FlappyBumi_MahanaimYo.Properties.Resources.boston;
             this.bumi.Location = new System.Drawing.Point(91, 190);
             this.bumi.Name = "bumi";
-            this.bumi.Size = new System.Drawing.Size(89, 87);
+            this.bumi.Size = new System.Drawing.Size(72, 73);
             this.bumi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bumi.TabIndex = 2;
             this.bumi.TabStop = false;
@@ -105,10 +105,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(804, 532);
-            this.Controls.Add(this.pipeBottom);
-            this.Controls.Add(this.pipeTop);
             this.Controls.Add(this.ScoreBox);
             this.Controls.Add(this.bumi);
+            this.Controls.Add(this.pipeBottom);
+            this.Controls.Add(this.pipeTop);
             this.Controls.Add(this.ground);
             this.Name = "Form1";
             this.Text = "GameConsole";

@@ -13,7 +13,7 @@ namespace FlappyBumi_MahanaimYo
     public partial class Form1 : Form
     {
         int pipeSpeed=8;
-        int gravity=15;
+        int gravity=10;
         int score=0;
 
 
@@ -38,23 +38,41 @@ namespace FlappyBumi_MahanaimYo
             bumi.Top += gravity; //pushes icon down as soon as the timer starts
             pipeBottom.Left -= pipeSpeed;//calling pipes to the other end
             pipeTop.Left -= pipeSpeed;
+            ScoreBox.Text = "SCORE: " + score.ToString();
+            
 
 
-
-            if (pipeBottom.Left < -50) {
+            if (pipeBottom.Left < -50) 
+            {
                 pipeBottom.Left = 600;
-                    }
+                score++;
+             }
             if (pipeTop.Left < -80)
             {
-                pipeTop.Left = 400;
+                pipeTop.Left = 700;
+                score++;
             }
+
+            if(bumi.Bounds.IntersectsWith(pipeBottom.Bounds)||
+                bumi.Bounds.IntersectsWith(pipeTop.Bounds)||
+                bumi.Bounds.IntersectsWith(ground.Bounds))
+            {
+                endGame();
+            }
+
+        }
+
+        private void endGame()
+        {
+            gameTimer.Stop();
+            ScoreBox.Text += "                  GAME OVER GG NT";
         }
 
         private void gamekeyUp(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Space)
             {
-                gravity = 15;
+                gravity = 10;
             }
         }
 
@@ -62,7 +80,7 @@ namespace FlappyBumi_MahanaimYo
         {
             if (e.KeyCode == Keys.Space)
             {
-                gravity = -15;
+                gravity = -10;
             }
         }
     }
